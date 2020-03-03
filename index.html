@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/jumbotron.css">
+    <link rel="stylesheet" href="css/second_row.css">
+    <link rel="stylesheet" href="css/bg-aqua.css">
     <!-- Custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -16,34 +18,6 @@
   <body>
 
     <header>
-
-      <!-- <div class="container-fluid">
-        <nav>
-          <div class="row_navbar clearfix"> -->
-            <!-- logo sinistra -->
-            <!-- <div class="logo col-xs-6">
-              <a href="#">START BOOTSTRAP</a>
-            </div> -->
-            <!-- link destra -->
-            <!-- <div class="link_right col-md-6 visible-md-block visible-lg-block">
-              <ul class="navbar-right clearfix">
-                <li class="col-md-4"><a href="#">PORTFOLIO</a></li>
-                <li class="col-md-4"><a href="#">ABOUT</a></li>
-                <li class="col-md-4"><a href="#">CONTACT</a></li>
-              </ul>
-            </div> -->
-            <!-- burger menu -->
-          <!--  <div class="burger col-md-6 visible-xs-block visible-sm-block">
-              <ul class="navbar-right">
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div> -->
-
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="row row_navbar">
@@ -54,18 +28,19 @@
             </div>
             <!-- link destra -->
             <div class="link_right col-md-6 visible-md-block visible-lg-block">
-              <ul class="">
-                <li class=""><a href="#">PORTFOLIO</a></li>
-                <li class=""><a href="#">ABOUT</a></li>
-                <li class=""><a href="#">CONTACT</a></li>
-              </ul>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn_nav btn btn-default">PORTFOLIO</button></div>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn_nav btn btn-default">ABOUT</button></div>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn_nav btn btn-default">CONTACT</button></div>
             </div>
             <!-- burger menu -->
             <div class="burger col-md-6 visible-xs-block visible-sm-block">
-              <ul class="navbar-right">
+              <!-- <ul class="navbar-right">
                 <li><a href="#">PORTFOLIO</a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">CONTACT</a></li> -->
               </ul>
             </div>
 
@@ -75,11 +50,12 @@
 
     </header>
     <main>
+
       <div class="jumbotron">
         <div class="container">
           <img src="img/avataaars.svg" alt="AVATAR">
           <h1>START BOOTSTRAP</h1>
-          <div class="row">
+          <div class="row divider_container">
             <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-2 col-md-2 col-md-offset-3"> <hr> </div>
             <div class="col-xs-2"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </div>
             <div class="col-xs-4 col-sm-3 col-md-2"> <hr> </div>
@@ -88,15 +64,93 @@
         </div>
       </div>
 
-      <div class="">
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png
-        https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png
+      <div class="second_row">
+        <div class="container">
+          <!-- titolo -->
+          <h1>PORTFOLIO</h1>
+          <div class="row divider_container">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-2 col-md-2 col-md-offset-3"> <hr> </div>
+            <div class="col-xs-2"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </div>
+            <div class="col-xs-4 col-sm-3 col-md-2"> <hr> </div>
+          </div>
+          <!-- portfolio items -->
+          <div class="row row_squares">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="uno" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="due" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="tre" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="quattro" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="cinque" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div id="sei" class="square">
+                <div class="overflow">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+          </div>  <!--/portfolio items -->
+
+        </div>
       </div>
 
+      <div class="bg-aqua">
+        <div class="container">
+          <!-- titolo -->
+          <h1>ABOUT</h1>
+          <div class="row divider_container">
+            <div class="col-xs-4 col-xs-offset-1 col-sm-3 col-sm-offset-2 col-md-2 col-md-offset-3"> <hr> </div>
+            <div class="col-xs-2"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </div>
+            <div class="col-xs-4 col-sm-3 col-md-2"> <hr> </div>
+          </div>
+          <!-- testo -->
+          <div class="row row_testo">
+            <div class="col-xs-12 col-md-4 col-md-offset-2">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+          </div>
+          <!-- bottone -->
+          <div class="bottone">
+            <button type="button" class="aqua-btn btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Free Download!
+            </button>
+          </div>
+
+
+
+        </div>
+      </div>
 
     </main>
 

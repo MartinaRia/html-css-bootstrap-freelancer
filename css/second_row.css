@@ -1,0 +1,95 @@
+
+.second_row h1{
+  margin-top: 80px;
+}
+.second_row hr{
+  border-top: 5px solid #333;
+}
+.row_squares{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+#uno{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png);
+}
+#due{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png);
+}
+#tre{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png);
+}
+#quattro{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png);
+}
+#cinque{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png);
+}
+#sei{
+  background: url(https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png);
+}
+.square{
+  background-size: cover !important;
+  background-position: center !important;
+  height: 280px;
+  position: relative;
+  top:0;
+  left: 0;
+  border-radius: 1rem;
+  width: 100%;
+  margin: 0 auto 30px auto;
+}
+
+.overflow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all .2s ease-in-out;
+  /* opacity: 0; */
+  background-color: rgba(26,188,156,.9);
+  border-radius: 1rem;
+  display: none;
+  cursor: pointer;
+}
+.square:hover .overflow{
+  display: block;
+}
+
+.glyphicon-plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: white;
+}
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+
+  .square{
+    max-width: 400px;
+  }
+
+}
