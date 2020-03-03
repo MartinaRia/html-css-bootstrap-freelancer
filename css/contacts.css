@@ -1,0 +1,61 @@
+.contatti hr{
+  border-top: 5px solid #333;
+  border-radius: 10px;
+}
+
+.form-group hr{
+  border-top: 2px solid #eee;
+}
+.form-control{
+  color: #495057;
+  font-size: 23px;
+  border: 0px solid transparent;
+  box-shadow:none;
+  margin: 40px 0px;
+}
+
+.modulo button{
+  padding: 18px 28px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0px;
+}
+.modulo button:hover{
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+}
+
+.modulo{
+  margin-bottom: 80px;
+}
+
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+
+
+
+}
