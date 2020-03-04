@@ -1,0 +1,50 @@
+footer{
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+}
+.colonna p{
+  text-align: center;
+}
+
+footer h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 40px 0px 20px 0px;
+}
+
+.glyphicon-ice-lolly-tasted {
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 100%;
+  padding:14px;
+  margin: 2px 4px;
+  cursor: pointer;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.glyphicon-ice-lolly-tasted:hover{
+  color: black;
+  background: white;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.green-txt{
+  color: #1abc9c;
+}
+
+.ultimo{
+  padding: 60px 0px;
+}
+
+.copyright{
+  background: #1a252f;
+  color: white;
+  padding: 20px 0px;
+}
+
+.copyright p{
+  text-align: center;
+  font-size: 15px;
+}
